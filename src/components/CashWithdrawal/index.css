@@ -1,0 +1,146 @@
+.app-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.cash-withdrawal-card-container {
+  background-color: #150b3e;
+  border-radius: 12px;
+  width: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  .cash-withdrawal-card-container {
+    width: 400px;
+  }
+}
+
+.cash-withdrawal-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding: 18px;
+}
+
+.accounter-details {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #c7d2fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #7c3aed;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    font-size: 24px;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+  }
+}
+
+.account-name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #d4d2db;
+  margin-left: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .account-name {
+    font-size: 18px;
+  }
+}
+
+.balance-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.your-balance-text {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #585076;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .your-balance-text {
+    font-size: 20px;
+  }
+}
+
+.balance-container {
+  margin-top: 0px;
+}
+
+.balance {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #c4c4c4;
+  font-weight: 500;
+  margin-top: 14px;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .balance {
+    font-size: 30px;
+  }
+}
+
+.currency {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #585076;
+}
+
+.withdraw-text {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #c4c4c4;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .withdraw-text {
+    font-size: 24px;
+  }
+}
+
+.choose-sum-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #585076;
+  font-weight: 500;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .choose-sum-text {
+    font-size: 18px;
+  }
+}
+
+.list-items-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  padding: 0px;
+}

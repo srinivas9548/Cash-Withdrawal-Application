@@ -1,0 +1,25 @@
+.denomination-item-container {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.button {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #c4c4c4;
+  font-weight: 600;
+  background-color: #382f5a;
+  border: 1px solid #c4c4c4;
+  border-radius: 6px;
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 22px;
+    width: 170px;
+    height: 40px;
+  }
+}
